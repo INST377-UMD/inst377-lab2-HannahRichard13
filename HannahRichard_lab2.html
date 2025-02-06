@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Hannah Richard Lab 2</title>
+
+        <style>
+            body {
+                background-color: lightpink
+            }
+
+            .color-box {
+                background-color: lightgoldenrodyellow;
+                color: black;
+                margin-top: 50px;
+                margin-bottom: 100px;
+                margin-left: 220px;
+                margin-right: 350px;
+                font-size: 40px;
+            }
+            #submitbutton {
+                background-color: aqua;
+                margin-top: 30px;
+                margin-bottom: 100px;
+                margin-left: 400;
+                margin-right: 10px;
+                font-size: 40px;
+            }
+            #submitbutton:hover {
+                background-color: red;
+            }
+        </style>
+
+
+        <h1>INST 377 Hannah Richard Lab 2 - Contact Information</h1>
+        <h2>Please enter your contact information:</h2>
+
+        <body>
+    
+        <form name="contactForm" method="get" action="lab2_thankyoupage.html">
+            <!-- Create a div -->
+            <div class="color-box">
+            <!-- Labels -->
+            <label for="firstName">First Name:</label>
+            <!-- Textbox and required fields  -->
+            <input type="text" id="firstName" required>
+            <br>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" required>
+        </div>
+            <br>
+            <hr>
+            <input type="submit" id="submitbutton">
+        </form>
+        
+
+        </body>
+
+    </head>
+</html>
